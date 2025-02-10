@@ -1,0 +1,2 @@
+2023-10-26, Temp 25°C, Humidity: 60%, Rain: 0mm
+2023-10-27, Temp 24°C, Humidity: 55%, Rain: 1mm

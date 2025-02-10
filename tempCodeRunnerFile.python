@@ -1,0 +1,25 @@
+def count_ones(num):
+    # Helper function to count the number of 1s in the binary representation of a number
+    return bin(num).count('1')
+
+def custom_sort(num):
+    # Custom sorting function based on the number of 1s and magnitude of the number
+    return (-count_ones(num), -num)
+
+def headquarters_algorithm(N, satelliteList, M):
+    # Sorting the satelliteList using the custom sorting function
+    sorted_list = sorted(satelliteList, key=custom_sort)
+    
+    # Returning the top M numbers
+    result = sorted_list[:M]
+    
+    return result
+
+# Reading input
+satelliteList_size = int(input())
+satelliteList = list(map(int, input().split()))
+retM = int(input())
+
+# Calling the function and printing the result
+result = headquarters_algorithm(satelliteList_size, satelliteList, retM)
+print(*result)

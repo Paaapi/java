@@ -20,7 +20,7 @@ public class find_even_digits {
         if(i < 0){
            i= i * -1;
         }
-        return (int)(Math.log(i)) + 1;
+        return (int)(Math.log(i)) + 1; // used to count digits correctly and +1 to ensure counting correct.
     }
     static int digits(int i){
         int count=0;

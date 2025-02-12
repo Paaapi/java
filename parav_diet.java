@@ -1,4 +1,4 @@
-package paravdeep1;
+//package paravdeep1;
 
 public class parav_diet {
     public static void main(String[] args) {

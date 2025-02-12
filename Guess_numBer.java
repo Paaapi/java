@@ -12,6 +12,7 @@ class Game{
         Scanner s = new Scanner(System.in);
         System.out.println("select a number from 0 to 100=");
         user_no=s.nextInt();
+        s.close();
     }
     Boolean Iscorrect_no(){
         if(user_no < computer_no){

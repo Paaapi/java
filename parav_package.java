@@ -1,4 +1,4 @@
-package paravdeep1;       // . k Baad package k andar ek file Ban jati hai 
+//package paravdeep1;       // . k Baad package k andar ek file Ban jati hai 
 
 public class parav_package {
     public static void main(String[] args) {

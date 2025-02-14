@@ -4,6 +4,13 @@ public class SearchInRotatedArr {
         System.out.println(pivotele(arr));
         int target=0;
         System.out.println(search(arr, target));
+        System.out.println(countRotations(arr));
+    }
+    // how many rotation in array 
+    static int countRotations(int[] arr){
+        int pivot=pivotele(arr);
+        System.out.println("No of rotations in array");
+        return pivot+1;
     }
 
     static int search(int[] arr,int target){

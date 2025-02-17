@@ -18,5 +18,6 @@ public class instance_initializer{
     public static void main(String[] args) {
         Child c =new Child();
         
+        
     }
 }

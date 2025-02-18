@@ -1,7 +1,6 @@
 /*
  first program
  */
-
 public class first {
 
     public static void main(String[] args) {
@@ -10,8 +9,7 @@ public class first {
 }
 
 
-
-public class Quick
+ class Quick
 {
     /* function that consider last element as pivot, 
 place the pivot at its exact position, and place 

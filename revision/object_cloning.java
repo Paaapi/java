@@ -14,7 +14,7 @@ class Base {
             obj.i=34;
             obj.j=30;
             obj.add();
-            Base.obj1 =obj.clone();
+            //Base.obj1 =obj.clone();
 
     }
 }

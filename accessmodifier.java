@@ -28,6 +28,10 @@ public class accessmodifier{
         mew.setNum(16815);
         System.out.println(mew.getName());
         System.out.println(mew.getNum());
-        
+//        System.out.println("I help teams to become more effective and juniors to grow");
+//        System.out.println("#tdeveloper #learner #softskills #writing #opensource");
+//        System.out.println("#javadev #fullstack #springboot #reactjs #cloud #microservices");
+
+
     }
 }

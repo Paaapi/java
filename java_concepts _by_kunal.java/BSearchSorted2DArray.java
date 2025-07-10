@@ -9,7 +9,7 @@ public class BSearchSorted2DArray {
         };
         System.out.println(Arrays.toString(search(arr, 13))); // [2,3]
     }
-
+    
     static int[] binarySearch(int[][] matrix, int row, int cStart, int cEnd, int target) {
         while (cStart <= cEnd) {
             int mid = cStart + (cEnd - cStart) / 2;
